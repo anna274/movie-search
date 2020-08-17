@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <h1 class="header__text">Movie Search</h1>
+    </div>
+  </header>
+  <main>
+    <div class="main__wrapper">
+      <div class="main__search">
+        <form id="search_form" class="search">
+          <div class="search__line">
+            <span class="icon icon-search"></span>
+            <input id="search_input" class="search__input" type="text" placeholder="Search.." name="search" onblur="this.focus()" autofocus autocomplete="off">
+            <span id="clear_button" class="icon icon-close"></span>
+            <span id="keyboard_icon" class="icon icon-keyboard"></span>
+          </div>
+          <button id="search_button" class="button" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="main__result-field">
+        <div class="result-field">
+        </div>
+      </div>
+      <div class="main__slider">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <h3 class="footer__text">RS School 2020q1</h3>
+        <a class="footer__text line" href="#">
+          <span class="icon icon-git"></span>
+          My GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

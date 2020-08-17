@@ -1,0 +1,15 @@
+.button {
+  @include font(2rem, 2rem, normal, normal);
+  color: $color-light;
+  background-color: $color-red;
+  border-radius: 5px;
+  transition: all 0.5s;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-yellow;
+  }
+}

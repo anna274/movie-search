@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  background-color: $color-footer;
+  padding: 20px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__text {
+  color: $color-light;
+}

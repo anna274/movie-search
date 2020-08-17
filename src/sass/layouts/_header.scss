@@ -1,0 +1,14 @@
+.header {
+  background-color: $color-header;
+  padding: 35px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header__text {
+  color: $color-light;
+  text-transform: uppercase;
+}

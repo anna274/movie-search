@@ -1,0 +1,30 @@
+.swiper-container {
+  width: 890px;
+  height: 380px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 1100px) {
+  .swiper-container {
+    width: calc(200px*3 + 30px*2);
+  }
+}
+
+@media (max-width: 870px) {
+  .swiper-container {
+    width: calc(200px*2 + 30px*1);
+  }
+}
+
+@media (max-width: 660px) {
+  .swiper-container {
+    width: calc(200px*1 + 30px*0);
+  }
+}
+

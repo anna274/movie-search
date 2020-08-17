@@ -1,0 +1,12 @@
+.result-field {
+  margin: auto;
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  @include font(2rem, 2.5rem, normal, normal);
+}
+

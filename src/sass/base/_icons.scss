@@ -1,0 +1,37 @@
+.icon {
+  display: block;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+@mixin icon($width, $height, $url) {
+  height: $height;
+  width: $width;
+  background-image: url($url);
+}
+
+.icon-git {
+  @include icon(20px, 20px, '../assets/img/github.png');
+}
+
+.icon-search {
+  @include icon(32px, 30px, '../assets/img/search.png');
+  cursor: default;
+}
+
+.icon-close {
+  @include icon(34px, 30px, '../assets/img/close.png');
+}
+
+.icon-keyboard {
+  @include icon(60px, 30px, '../assets/img/keyboard.png');
+  margin-right: 0;
+  padding-left: 12px;
+  border-left: 2px solid black;
+}
+
+.icon-star {
+  @include icon(20px, 20px, '../assets/img/star.png');
+}
